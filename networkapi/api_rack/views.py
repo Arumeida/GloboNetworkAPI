@@ -179,7 +179,6 @@ class RackDeployView(APIView):
                         except Exception as e:
                             log.exception(e)
                             raise exceptions.RackAplError(e)
-            # SEPARAR AQUI!
 
             datas = dict()
             success_map = dict()
