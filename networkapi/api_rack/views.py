@@ -226,7 +226,6 @@ class RackForeman (APIView):
             raise api_exceptions.NetworkAPIException(e)
 
 
-#===============================================@====================================================
 class RackConfigView(APIView):
 
     @commit_on_success
